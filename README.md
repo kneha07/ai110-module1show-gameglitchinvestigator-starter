@@ -32,6 +32,11 @@ Game Glitch Investigator- The Glitchy Guesser is a logic-based number guessing g
 ![Winning Game Demo](winning_demo.jpg)
 
 ## 🚀 Stretch Features
+**Challenge 1:** Edge-Case Testing Steps
+The 3 Edge Cases  handled:
+Empty strings/Non-numeric input: Ensuring the game doesn't crash if a user clicks "Submit" without typing a number.
+Decimals (Floats): Handling cases where a user types "50.5" instead of an integer.
+Out-of-range values: Gracefully rejecting numbers like "-10" or "500" when the range is 1–100.
 
 **Challenge 2:** Guess History Sidebar
 - Displays all previous guesses in a live-updating sidebar table
@@ -52,8 +57,7 @@ Game Glitch Investigator- The Glitchy Guesser is a logic-based number guessing g
 - 🎨 **Color-Coded Hints**: Success/warning boxes for visual feedback
 - 🏆 **Wide Layout**: Enhanced UI with better spacing and readability
 
-### Challenge 4 Screenshot
 
-![Enhanced Game UI Demo](challenge4_demo.png)
+
 
 
