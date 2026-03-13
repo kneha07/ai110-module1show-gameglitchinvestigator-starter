@@ -49,9 +49,15 @@ Out-of-range values: Gracefully rejecting numbers like "-10" or "500" when the r
 - All tests passing with pytest
 
 **Challenge 4:** Enhanced Game UI
-- 📊 **Dashboard Metrics**: Real-time display of Score, Attempts, and Difficulty
-- 📋 **Sidebar History Table**: Tracks all guesses
-- 🏆 **Wide Layout**: Enhanced UI with better spacing and readability
+
+![Enhanced UI Screenshot](enhanced_game_ui.jpg)
+
+    -📊 Dashboard Metrics: Real-time display of Score, Attempts, and Difficulty using a 3-column metric layout.
+    -🔥 Hot/Cold Indicator: Added proximity emojis:
+    -🔥 = Within 5 numbers of the secret (Hot!)
+    -❄️ = Further than 5 numbers away (Cold!)
+    -📋 Sidebar Table: Replaced raw text history with a clean, structured data table for better readability.
+    -🎨 Visual Polish: Integrated color-coded hint boxes (st.success, st.warning) and a wide-screen layout for a modern feel.
 
 
 
