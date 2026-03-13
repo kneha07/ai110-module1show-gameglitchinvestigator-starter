@@ -50,11 +50,7 @@ Out-of-range values: Gracefully rejecting numbers like "-10" or "500" when the r
 
 **Challenge 4:** Enhanced Game UI
 - 📊 **Dashboard Metrics**: Real-time display of Score, Attempts, and Difficulty
-- 🔥 **Hot/Cold Indicator**: Emojis show proximity to secret number
-  - 🔥 = Within 5 of the secret (hot)
-  - ❄️ = Further away (cold)
-- 📋 **Sidebar History Table**: Tracks all guesses with color-coded results
-- 🎨 **Color-Coded Hints**: Success/warning boxes for visual feedback
+- 📋 **Sidebar History Table**: Tracks all guesses
 - 🏆 **Wide Layout**: Enhanced UI with better spacing and readability
 
 
