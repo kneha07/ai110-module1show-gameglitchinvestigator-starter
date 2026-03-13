@@ -59,3 +59,25 @@ def test_difficulty_ranges():
     
     low_h, high_h = get_range_for_difficulty("Hard")
     assert high_h == 50
+    
+    # --- Fixed Edge Case Tests ---
+
+def test_parse_guess_invalid_string():
+    # Adjusted to match your 3-value return: ok, value, err
+    ok, value, err = parse_guess("apple")
+    assert ok is False
+    assert value is None
+
+def test_parse_guess_decimal_edge():
+    # Adjusted to match your 3-value return: ok, value, err
+    ok, value, err = parse_guess("12.5")
+    assert ok is True
+    assert value == 12
+
+def test_score_never_negative_edge():
+    # Ensures score logic doesn't break with massive attempts
+    # Note: Use the arguments your specific update_score function expects
+    final_score = update_score(current_score=100, outcome="Too High", attempt_number=1000)
+    assert final_score >= 0
+
+    

@@ -25,14 +25,35 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+Game Glitch Investigator- The Glitchy Guesser is a logic-based number guessing game built with Streamlit. Players choose a difficulty level (Easy, Normal, or Hard) and attempt to find a secret random number within a specific range and attempt limit. The game tracks the user's history and awards a score based on how quickly they find the correct answer.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![Winning Game Demo](winning_demo.jpg)
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+**Challenge 2:** Guess History Sidebar
+- Displays all previous guesses in a live-updating sidebar table
+- Shows guess number, value, and result (Too High/Too Low)
+- Updates automatically as you play
+
+**Challenge 3:** Advanced Game Logic & Testing
+- Comprehensive unit tests for all game functions
+- Edge-case validation and error handling
+- All tests passing with pytest
+
+**Challenge 4:** Enhanced Game UI
+- 📊 **Dashboard Metrics**: Real-time display of Score, Attempts, and Difficulty
+- 🔥 **Hot/Cold Indicator**: Emojis show proximity to secret number
+  - 🔥 = Within 5 of the secret (hot)
+  - ❄️ = Further away (cold)
+- 📋 **Sidebar History Table**: Tracks all guesses with color-coded results
+- 🎨 **Color-Coded Hints**: Success/warning boxes for visual feedback
+- 🏆 **Wide Layout**: Enhanced UI with better spacing and readability
+
+### Challenge 4 Screenshot
+
+![Enhanced Game UI Demo](challenge4_demo.png)
+
+
